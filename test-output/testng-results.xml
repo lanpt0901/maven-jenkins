@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Guru" duration-ms="99" started-at="2022-02-26T14:50:15Z" finished-at="2022-02-26T14:50:15Z">
+    <groups>
+    </groups>
+    <test name="Run on Internet Explorer" duration-ms="99" started-at="2022-02-26T14:50:15Z" finished-at="2022-02-26T14:50:15Z">
+      <class name="jenkins.Login_01">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:jenkins.Login_01@1794d431]" name="beforeClass" is-config="true" duration-ms="16" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_CreateNewAccount()[pri:0, instance:jenkins.Login_01@1794d431]" name="TC_01_CreateNewAccount" duration-ms="22" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_CreateNewAccount -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jenkins.Login_01@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jenkins.Login_01@1794d431]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_02_Login()[pri:0, instance:jenkins.Login_01@1794d431]" name="TC_02_Login" duration-ms="9" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jenkins.Login_01@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jenkins.Login_01@1794d431]" name="afterMethod" is-config="true" duration-ms="3" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TC_03_TestMenu()[pri:0, instance:jenkins.Login_01@1794d431]" name="TC_03_TestMenu" duration-ms="3" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_TestMenu -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:jenkins.Login_01@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:jenkins.Login_01@1794d431]" name="afterMethod" is-config="true" duration-ms="4" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:jenkins.Login_01@1794d431]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-02-26T21:50:15Z" finished-at="2022-02-26T21:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jenkins.Login_01 -->
+    </test> <!-- Run on Internet Explorer -->
+  </suite> <!-- Guru -->
+</testng-results>

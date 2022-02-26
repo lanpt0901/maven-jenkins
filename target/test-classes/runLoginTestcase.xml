@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Guru" parallel="false">
+ 
+  <listeners>
+  	<!-- <listener class-name="commons.MethodListener" />
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>  -->
+    <!-- danh cho viec build Jenkin html thi build file xml dang JUNIT de lam input cho Jenkin de phan tich du lieu -->
+    <!-- Exntent report v2 -->
+    <!-- <listener class-name="reportConfig.ExtentReportListener"/> --> 
+    <!-- Exntent report v3 -->
+    <!-- <listener class-name="reportConfig.ExtentTestListener"/> -->
+    <!-- Exntent report v4 -->
+<!--     <listener class-name="reportConfig.ExtentReportv4Listener"/> -->
+    
+  </listeners>
+ <!--  <test name="Run on Firefox">
+  	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.bankGuru.login.HomePage_DynamicLocator"/>
+    </classes>
+  </test>   --> 
+  
+  <!-- <test name="Run on Chrome">
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.bankGuru.common.Common_01_RegisterUser"/>
+      <class name="com.bankGuru.customer.Customer_02_CreateNewCustomer_DynamicElement"/>
+    </classes>
+  </test>  -->
+  
+  <!--  <test name="Run on ChromeHeadless">
+  	<parameter name="browser" value="chromeHeadless"></parameter>
+    <classes>
+      <class name="com.bankGuru.login.Login_01_RegisterOrLoginPage"/>
+    </classes>
+  </test> 
+  
+  <test name="Run on Edge">
+  	<parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.bankGuru.login.Login_01_RegisterOrLoginPage"/>
+    </classes>
+  </test>  -->
+  <test name="Run on Internet Explorer">
+  	<parameter name="browser" value="ie"></parameter>
+    <classes>
+      <class name="jenkins.Login_01"/>
+    </classes>
+  </test> 
+</suite>
