@@ -1,6 +1,6 @@
 node {
   stage('SCM Checkout'){
-    git 'https://github.com/lanpt0901/maven-jenkins'
+    git 'https://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@github.com/lanpt0901/maven-jenkins.git'
   }
   stage('Compile-Package'){
     //Get maven home path
