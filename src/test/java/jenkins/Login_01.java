@@ -1,9 +1,8 @@
 package jenkins;
 
-import java.util.concurrent.TimeUnit;
-
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -12,8 +11,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Login_01 {
+	protected final Log log;
 	WebDriver driver;
 
+	protected Login_01() {
+		log = LogFactory.getLog(getClass());
+	}
+	
 	@BeforeMethod
 	public void beforeMethod() {
 	}
@@ -37,16 +41,19 @@ public class Login_01 {
 
 	@Test
 	public void TC_01_CreateNewAccount() {
+		log.info("TC01");
 		Assert.assertTrue(true);
 	}
 
 	@Test
 	public void TC_02_Login() {
+		log.info("TC02");
 		Assert.assertTrue(true);
 	}
 	
 	@Test
 	public void TC_03_TestMenu() {
+		log.info("TC03");
 		Assert.assertTrue(true);
 	}
 	
