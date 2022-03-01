@@ -41,19 +41,19 @@ public class Login_01 {
 
 	@Test
 	public void TC_01_CreateNewAccount() {
-		log.info("TC01");
+		log.info("=========TC01");
 		Assert.assertTrue(true);
 	}
 
 	@Test
 	public void TC_02_Login() {
-		log.info("TC02");
+		log.debug("==========TC02");
 		Assert.assertTrue(true);
 	}
 	
 	@Test
 	public void TC_03_TestMenu() {
-		log.info("TC03");
+		log.info("===========TC03");
 		Assert.assertTrue(true);
 	}
 	

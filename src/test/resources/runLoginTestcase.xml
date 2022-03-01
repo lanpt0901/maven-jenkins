@@ -2,9 +2,9 @@
 <suite name="Guru" parallel="false">
  
   <listeners>
-  	<!-- <listener class-name="commons.MethodListener" />
+  	<!-- <listener class-name="commons.MethodListener" />-->
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>  -->
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>  
     <!-- danh cho viec build Jenkin html thi build file xml dang JUNIT de lam input cho Jenkin de phan tich du lieu -->
     <!-- Exntent report v2 -->
     <!-- <listener class-name="reportConfig.ExtentReportListener"/> --> 
