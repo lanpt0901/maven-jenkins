@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Login" parallel="false">
+<suite name="Register" parallel="false">
  
   <listeners>
   	<!-- <listener class-name="commons.MethodListener" />-->
@@ -42,10 +42,10 @@
       <class name="com.bankGuru.login.Login_01_RegisterOrLoginPage"/>
     </classes>
   </test>  -->
-  <test name="Run on Chrome - Login 01">
+  <test name="Run on Chrome - Register 02">
   	<parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="jenkins.Login_01"/>
+      <class name="jenkins.Register_02"/>
     </classes>
   </test> 
 </suite>

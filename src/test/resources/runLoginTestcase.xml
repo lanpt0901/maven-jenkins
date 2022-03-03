@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Guru" parallel="false">
+<suite name="Login" parallel="false">
  
   <listeners>
   	<!-- <listener class-name="commons.MethodListener" />-->
@@ -42,8 +42,8 @@
       <class name="com.bankGuru.login.Login_01_RegisterOrLoginPage"/>
     </classes>
   </test>  -->
-  <test name="Run on Internet Explorer">
-  	<parameter name="browser" value="ie"></parameter>
+  <test name="Run on Chrome - Login 01">
+  	<parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="jenkins.Login_01"/>
     </classes>
