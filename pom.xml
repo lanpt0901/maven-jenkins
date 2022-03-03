@@ -131,7 +131,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>19.0</version>
+			<version>27.1-jre</version>
 		</dependency>
 	</dependencies>
 
@@ -160,12 +160,13 @@
 					<!-- Disabling default listeners of TestNG -->
 					<property>
 						<name>usedefaultlisteners</name>
-						<value>false</value>
+						<value>true</value>
 					</property>
 
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
 						<file>src/test/resources/runLoginTestcase.xml</file>
+						<file>src/test/resources/runRegisterTestcase.xml</file>
 					</suiteXmlFiles>
 
 				</configuration>
